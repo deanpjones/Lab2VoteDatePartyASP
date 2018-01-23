@@ -1,0 +1,40 @@
+﻿        .center {
+            text-align:center;
+        }
+        .center-calendar {
+            margin: auto;
+            width: 50%;
+        }
+        body {
+
+            font-family: "Verdana", "Times New Roman", "Helvetica Rounded", "Arial Rounded MT Bold", Arial, sans-serif;
+            background-color: dimgray;
+            /*background-image: url(images/party.jpg);
+            background-repeat: repeat;*/
+            /*opacity: 0.2;*/
+            /*opacity: 0.5;*/
+        }
+        img {
+            opacity: 0.5;
+            filter: alpha(opacity=50); /* For IE8 and earlier */
+        }
+        h1 {
+            border-radius: 8px;
+            border: 2px solid #ff00ff;	
+        }
+        table {
+            width: 50%;
+            table-layout: fixed;
+            margin: auto;
+        }
+        td {
+            text-align: center; /* center textbox horizontally */
+            vertical-align: middle; /* center textbox vertically */
+		    /*border-radius: 8px;*/
+		    padding: 6px;
+		    /*background-color: darkgoldenrod;*/
+		    color: black;
+		    border: 2px solid #112865;
+		    empty-cells: show;
+
+		}
